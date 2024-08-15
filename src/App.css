@@ -210,3 +210,31 @@ h1, h2, h3 {
 		border-radius: 25px; /* Rounded corners for button on small screens */
 	}
 }
+/* src/App.css */
+.movie-details-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+  }
+  
+  .movie-details {
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	max-width: 600px;
+	max-height: 80%;
+	overflow-y: auto;
+  }
+  
+  .movie-details img {
+	max-width: 100%;
+	height: auto;
+  }
+  
