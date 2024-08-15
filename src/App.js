@@ -80,7 +80,7 @@ const App = () => {
         />
       </div>
       <div className='row d-flex align-items-center mt-4 mb-4'>
-        <MovieListHeading heading='Watch List' />
+        <MovieListHeading heading='WatchList' />
       </div>
       <div className='row'>
         <MovieList
