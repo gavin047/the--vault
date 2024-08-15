@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+// import './App.css';
 import MovieList from './components/MovieList';
 import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
@@ -80,7 +80,7 @@ const App = () => {
         />
       </div>
       <div className='row d-flex align-items-center mt-4 mb-4'>
-        <MovieListHeading heading='Favourites' />
+        <MovieListHeading heading='Watch List' />
       </div>
       <div className='row'>
         <MovieList
