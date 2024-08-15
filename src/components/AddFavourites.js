@@ -5,6 +5,7 @@ const AddFavourite = () => {
 		<>
 			<span className='mr-2'>Add to Favourites</span>
 			<svg
+			
 				width='1em'
 				height='1em'
 				viewBox='0 0 16 16'
